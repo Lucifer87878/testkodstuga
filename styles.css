@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #b6b6b6e7;
+}
+
+#H-T {
+    text-align: center; 
+    justify-items: center;
+
+    margin-top: 20px;   
+}
+
+#add-btn {
+    background-color: #07a32e;
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#add-btn:hover {
+    background-color: #3ad360;
+}
+
+/* Formulär stil */
+form {
+    background-color: #0993bddb;
+    padding: 20px;             
+    border-radius: 10px;      
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px;       
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+/* Stil för djurkorten */
+.grid-item {
+    border: 1px solid #036764;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    position: relative;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.grid-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.grid-item h3 {
+    margin: 0 0 10px;
+}
+
+/* Stil för delete-knappen */
+.delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}
+
+.danger {
+    background-color: #ff00004d; 
+}
